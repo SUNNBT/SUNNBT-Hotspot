@@ -1,0 +1,17 @@
+SUNNBT Hotspot（纯命令行版）
+
+快速开始
+1. 将 SUNNBT_Hotspot 文件夹完整复制或解压到目标 Windows 电脑。
+2. 在文件夹中运行 SUNNBT_Hotspot.exe；程序会请求管理员权限。
+3. 在 Windows 用户账户控制（UAC）提示中选择“是”。
+4. 程序在控制台输出执行结果；日志保存在 Logs\start_hotspot.log。
+
+本发行包包含 Python 运行库和程序依赖，目标电脑无需安装 Python。请保留 EXE、_internal 和发行说明.txt，不要只复制 EXE。
+
+要求与说明
+- 适用于 64 位 Windows 10/11；需要可用的 Internet 连接，以及支持 Windows 移动热点的无线网卡和驱动。
+- 使用 Windows 自带的 Windows PowerShell、网络适配器和移动热点功能。
+- 热点名称：SUNNBT111
+- 热点密码：SUNNBT111
+- 此版本不包含图形界面。启动热点后程序退出；如需图形界面和热点设备管理窗口，请使用 GUI 发行包。
+- 热点能力由操作系统、无线网卡和驱动提供，无法保证在所有电脑上均可启用。
